@@ -1,0 +1,49 @@
+.train-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color:#1e1d1d;
+  color: white;
+}
+
+.Accounts, .Production, .Quality {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.train-box {
+  background-color: #4e4d4d;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 30px;
+  flex: 1 1 300px;
+}
+
+.separator {
+  width: 1px;
+  height: auto;
+  background-color: black;
+  margin: 20px;
+  flex-shrink: 0;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  background-color: transparent;
+}

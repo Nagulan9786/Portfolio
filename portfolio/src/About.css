@@ -1,0 +1,51 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to fill the viewport */
+    background-color: #1e1d1d;
+    
+    padding: 40px; /* Optional: Add padding */
+  }
+  .habout{
+    color:white;
+  }
+  
+  .box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-block-end:5%;
+    font-size:xx-large;
+  }
+  
+  .box p {
+    font-size: 16px;
+    color: #fffefe;
+    font-size:x-large;
+  }
+  .box {
+    background-color:#4e4d4d;
+    padding: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    border-radius:50px;
+  }
+  .button{
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size:large;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: larger;
+    transition: transform 0.3s ease;
+  }
+  .button:hover{
+    background-color: #000000;
+    transform: scale(1.2);
+    color: #ffffff;
+  }
+  
